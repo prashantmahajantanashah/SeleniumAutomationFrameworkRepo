@@ -1,0 +1,13 @@
+package com.prashant.enums;
+
+public enum ConfigProperties {
+	
+	URL,
+	BROWSER,
+	OVERRIDEREPORT,
+	PASSEDSTEPSCREENSHOT,
+	FAILEDSTEPSCREENSHOT,
+	SKIPPEDSTEPSCREENSHOT,
+	RETRYFAILEDTESTS;
+
+}

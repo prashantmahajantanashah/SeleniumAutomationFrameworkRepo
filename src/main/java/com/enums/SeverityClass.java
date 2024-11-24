@@ -1,0 +1,10 @@
+package com.enums;
+
+public class SeverityClass {
+	
+	public static final SeverityClass CRITICAL = new SeverityClass();
+	public static final SeverityClass HIGH = new SeverityClass();
+	public static final SeverityClass MEDIUM = new SeverityClass();
+	public static final SeverityClass FINAL = new SeverityClass();
+
+}

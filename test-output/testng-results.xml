@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-06T23:45:43 IST" name="Suite" finished-at="2024-10-06T23:46:38 IST" duration-ms="55039">
+    <groups>
+    </groups>
+    <test started-at="2024-10-06T23:45:43 IST" name="Test" finished-at="2024-10-06T23:46:38 IST" duration-ms="55039">
+      <class name="com.prashant.tests.AmazonPageTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.prashant.tests.AmazonPageTest@50a638b5]" started-at="2024-10-06T23:45:44 IST" name="setUp" finished-at="2024-10-06T23:45:56 IST" duration-ms="12049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5649ec46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AmazonPageTest(java.util.Map)[pri:0, instance:com.prashant.tests.AmazonPageTest@50a638b5]" started-at="2024-10-06T23:45:56 IST" name="AmazonPageTest" description="amazon test" data-provider="getData" finished-at="2024-10-06T23:46:37 IST" duration-ms="41371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, submenutext=Laptops, fname=, testname=AmazonPageTest, username=, browser=chrome, execute=yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.prashant.tests.AmazonPageTest@50a638b5]" started-at="2024-10-06T23:46:37 IST" name="tearDown" finished-at="2024-10-06T23:46:38 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prashant.tests.AmazonPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
